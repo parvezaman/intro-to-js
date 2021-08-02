@@ -7,3 +7,5 @@ if ((gotJob == true && moneySaved> 200000) || baperTaka > 300000) {
 } else {
     console.log("tor kopale biya nai :P !!!")
 }
+
+console.log(6>=6);
