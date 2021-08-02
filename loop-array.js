@@ -22,9 +22,16 @@ var myItems = [ 'bottle', 'mug', 'paper', 'pen', 'mouse', 'keyboard' ];
 var newArrray = [];
 console.log(myItems);
 
-for (var i = 0; i < myItems.length; i++) {
+for (var i = 0; i = myItems.length; i++) {
     var popedItem = myItems.pop();
     console.log(popedItem);
     newArrray.push(popedItem);    
 }
 console.log(newArrray);
+
+
+// Another way to do it
+
+var myItemsToReverse = [ 'bottle', 'mug', 'paper', 'pen', 'mouse', 'keyboard' ];
+
+console.log(myItemsToReverse.reverse());
