@@ -22,3 +22,4 @@ if(items.length >= 4){
 else{
     console.log("wow!!! you have a clean desk");
 }
+// you have too many stuff on your desk. messyyyyy ~_~
